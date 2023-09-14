@@ -1,0 +1,11 @@
+n1= int(input("Enter number 1:"))
+n2 = int (input("Enter number 2:"))
+o= input("Input the operator")
+if (o == "+"):
+        print(n1+n2)
+elif (o=="-"):
+        print(n1-n2)
+elif (o=="*"):
+    print(n1*n2)
+else:
+    print(n2/n1)
